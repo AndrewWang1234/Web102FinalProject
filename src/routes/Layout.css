@@ -1,0 +1,56 @@
+/* Make sure page content doesn't hide under fixed nav */
+.layout-wrapper {
+    padding-top: 60px; 
+}
+
+/* Navbar container */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+/* Style the ul inside nav */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Style individual list items */
+nav li {
+    margin-right: 20px;
+}
+
+/* Style the links */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Search bar container centered */
+.search-bar-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* Search input styling */
+.search-bar-container input[type="text"] {
+    width: 300px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
